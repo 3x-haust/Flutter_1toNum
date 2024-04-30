@@ -124,7 +124,7 @@ class _GamePageState extends State<GamePage> {
     var screenWidth = MediaQuery.of(context).size.width;
     var screenHeight = MediaQuery.of(context).size.height;
     var gridSize = screenWidth * 0.74; 
-    var buttonSize = gridSize / 20; 
+    var buttonSize = gridSize / 25; 
 
     return Container(
       padding: EdgeInsets.only(top: screenHeight / 30, left: (screenWidth / 10), right: (screenWidth / 10), bottom: (screenHeight / 20)), 
